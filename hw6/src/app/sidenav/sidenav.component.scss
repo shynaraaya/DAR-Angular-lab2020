@@ -6,19 +6,19 @@
   display: flex;
   flex-direction: column;
   .sidenav-item {
-    font-size:18px;
-    font-weight:500;
-    position:relative;
-    height:40px;
-    line-height:40px;
-    margin-top:10px;
-    overflow:hidden;
-    width:90%;
-    margin-left:5%;
-    cursor:pointer;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
 
     &:hover {
-      background-color: darkgray;
+      background-color: #6c6267;
     }
     a {
       text-decoration: none;
