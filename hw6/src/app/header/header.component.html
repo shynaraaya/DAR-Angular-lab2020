@@ -1,6 +1,6 @@
 <div class="header">
   <nav>
-    <app-logo></app-logo>
+    <app-logo [logo]=" '../assets/logo.png' "></app-logo>
     <ul class="nav-wrapper" *ngIf="navItems">
       <ng-container *ngFor="let navItem of navItems">
         <li class="nav-item" *ngIf="navItem.enabled">
