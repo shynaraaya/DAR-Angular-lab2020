@@ -1,5 +1,4 @@
-# hw 8
+# hw 9
 
-## Created auth component with login page
-## Stylized login page 
-## Created auth module
+## Added logout() which clears all cache after clicking on it
+## Created form for register component
