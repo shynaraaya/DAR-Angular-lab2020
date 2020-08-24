@@ -1,0 +1,56 @@
+h1 {
+  font-size: 1.3rem;
+}
+
+.user-info-block {
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control-label {
+  font-size: 0.75rem;
+}
+
+.form-control {
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+  line-height: 120%;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  max-width: 50%;
+}
+
+.bs-list {
+  padding-left: 2rem;
+  .delete-btn, .add-btn {
+    width: 135px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+}
+
+.form-error {
+  color: #e03267;
+  font-size: 0.75rem;
+}
+
+.save-btn {
+  margin-bottom: 0.8rem;
+  width: 135px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  display: inline-block;
+}
